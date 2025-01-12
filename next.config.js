@@ -9,8 +9,11 @@ const config = {
   images: {
     remotePatterns: [
       {
-        hostname: 'utfs.io',
-      }
+        hostname: "utfs.io",
+      },
+      {
+        hostname: "ecxfcn4w21.ufs.sh",
+      },
     ],
   },
   typescript: {
@@ -18,7 +21,7 @@ const config = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-  }
+  },
 };
 
 export default config;
