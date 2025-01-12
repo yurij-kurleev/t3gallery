@@ -67,6 +67,10 @@ export function SimpleUploadButton() {
       });
       router.refresh();
     },
+    onUploadError: () => {
+      toast.dismiss("upload-begin");
+      toast.error("Upload failed", { richColors: true });
+    },
   });
 
   return (
